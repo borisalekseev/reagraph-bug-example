@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Button} from "react-bootstrap"
+import { GraphCanvas } from 'reagraph';
 
 function App() {
   return (
@@ -16,7 +18,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <Button>btn</Button>
         </a>
       </header>
     </div>
